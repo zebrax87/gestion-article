@@ -1,0 +1,92 @@
+/* styles.css */
+
+/* Styles pour le formulaire d'ajout d'article */
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.container h2 {
+    margin-bottom: 20px;
+}
+
+.container label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.container input[type="text"],
+.container textarea,
+.container select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+.container select {
+    height: 40px;
+}
+
+.container button[type="submit"] {
+    background-color: #23282e;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.container button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Styles pour la barre de navigation */
+.navbar {
+    font-family: sans-serif;
+    background-color: black;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navbar-title {
+    color: #fff;
+    font-size: 30px;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.navbar-links {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-links a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.navbar-links a:hover {
+    background-color: #333;
+}
+
+/* Styles pour les actualités */
+.actualites {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
